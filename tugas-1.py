@@ -18,5 +18,5 @@ print("Berikut nilai P [suhu:nilai P]")
 hasil = ""
 for index, element in enumerate(P):
     cache = float(element)
-    hasil += f"[{T[index]}:{cache:.4f}]" + "   "
+    hasil += f"[{T[index]}:{cache:.4f}]" + "  "
 print(hasil)

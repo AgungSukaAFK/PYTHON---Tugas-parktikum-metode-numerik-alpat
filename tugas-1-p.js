@@ -33,7 +33,7 @@ let hasil = "";
 
 P.forEach((element, index) => {
     let cache = parseFloat(element)
-    hasil += `[${T[index]}:${cache.toFixed(4)}]` + "   "
+    hasil += `[${T[index]}:${cache.toFixed(4)}]` + "  "
 })
 
 console.log(hasil)
